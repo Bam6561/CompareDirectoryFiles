@@ -8,7 +8,7 @@ import java.util.*;
  * When referring to contents, files' paths are compared.
  *
  * @author Danny Nguyen
- * @version 1.1
+ * @version 1.2
  * @since 1.0
  */
 public class DirectoryComparison {
@@ -48,8 +48,8 @@ public class DirectoryComparison {
       return;
     }
 
-    parseDirectory(directory1, contents1);
-    parseDirectory(directory2, contents2);
+    parseDirectory(directory1, directory1.listFiles(), contents1);
+    parseDirectory(directory2, directory2.listFiles(), contents2);
     compareContents();
     printUniqueFiles(directory1, contents1);
     printUniqueFiles(directory2, contents2);
@@ -58,15 +58,16 @@ public class DirectoryComparison {
   /**
    * Recursively parses the directory to map its contents.
    *
-   * @param source source directory
-   * @param files  directory contents
+   * @param source    source directory
+   * @param directory directory
+   * @param files     directory contents
    */
-  private static void parseDirectory(File source, Set<String> files) {
-    for (File file : source.listFiles()) {
+  private static void parseDirectory(File source, File[] directory, Set<String> files) {
+    for (File file : directory) {
       if (file.isFile()) {
         files.add(file.getPath().substring(source.getPath().length()));
       } else {
-        parseDirectory(source, files);
+        parseDirectory(source, file.listFiles(), files);
       }
     }
   }
