@@ -2,7 +2,7 @@
 
 <!-- LOGO -->
 <div align="center">
-  <h3>DirectoryComparison</h3>
+  <h3>CompareDirectoryRelativePaths</h3>
 
 [![Stargazers][stars-shield]][stars-url] [![License][license-shield]][license-url]
 </div>
