@@ -24,9 +24,7 @@
 
 ## About The Project
 
-Compares two directories' and their subdirectories' contents and lists differences between both.
-
-When referring to contents, files' paths are compared.
+Compares two directories' and their subdirectories' relative file paths and lists differences between both.
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -36,9 +34,9 @@ When referring to contents, files' paths are compared.
 
 1. Clone the repo.
 2. Find the first directory you want to compare, then copy its address as text.
-3. Paste the address for the value of the variable `directory1` on line 18.
+3. Paste the address for the value of the variable `directory1` on line 16.
 4. Find the second directory you want to compare, then copy its address as text.
-5. Paste the address for the value of the variable `directory2` on line 23.
+5. Paste the address for the value of the variable `directory2` on line 21.
 6. Run the program.
 
 <p align="right"><a href="#top">Back to Top</a></p>
@@ -69,7 +67,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com
 
-Project Link: <https://github.com/Bam6561/DirectoryComparison>
+Project Link: <https://github.com/Bam6561/CompareDirectoryRelativeFilePaths>
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -83,10 +81,10 @@ Project Link: <https://github.com/Bam6561/DirectoryComparison>
 
 <!-- SHIELDS -->
 
-[stars-shield]: https://img.shields.io/github/stars/Bam6561/DirectoryComparison
+[stars-shield]: https://img.shields.io/github/stars/Bam6561/CompareDirectoryRelativeFilePaths
 
-[stars-url]: https://github.com/Bam6561/DirectoryComparison/stargazers
+[stars-url]: https://github.com/Bam6561/CompareDirectoryRelativeFilePaths/stargazers
 
-[license-shield]: https://img.shields.io/github/license/Bam6561/DirectoryComparison
+[license-shield]: https://img.shields.io/github/license/Bam6561/CompareDirectoryRelativeFilePaths
 
-[license-url]: https://github.com/Bam6561/DirectoryComparison/blob/main/LICENSE
+[license-url]: https://github.com/Bam6561/CompareDirectoryRelativeFilePaths/blob/main/LICENSE
