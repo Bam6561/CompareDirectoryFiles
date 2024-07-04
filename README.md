@@ -2,7 +2,7 @@
 
 <!-- LOGO -->
 <div align="center">
-  <h3>CompareDirectoryRelativePaths</h3>
+  <h3>CompareDirectoryFiles</h3>
   <img src="https://i.ibb.co/XWMgvZQ/compare-directory-relative-paths-128x128.png" alt="compare-directory-relative-paths-128x128">
 
 [![Stargazers][stars-shield]][stars-url] [![License][license-shield]][license-url]
@@ -68,7 +68,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com
 
-Project Link: <https://github.com/Bam6561/CompareDirectoryRelativeFilePaths>
+Project Link: <https://github.com/Bam6561/CompareDirectoryFiles>
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -82,10 +82,10 @@ Project Link: <https://github.com/Bam6561/CompareDirectoryRelativeFilePaths>
 
 <!-- SHIELDS -->
 
-[stars-shield]: https://img.shields.io/github/stars/Bam6561/CompareDirectoryRelativeFilePaths
+[stars-shield]: https://img.shields.io/github/stars/Bam6561/CompareDirectoryFiles
 
-[stars-url]: https://github.com/Bam6561/CompareDirectoryRelativeFilePaths/stargazers
+[stars-url]: https://github.com/Bam6561/CompareDirectoryFiles/stargazers
 
-[license-shield]: https://img.shields.io/github/license/Bam6561/CompareDirectoryRelativeFilePaths
+[license-shield]: https://img.shields.io/github/license/Bam6561/CompareDirectoryFiles
 
-[license-url]: https://github.com/Bam6561/CompareDirectoryRelativeFilePaths/blob/main/LICENSE
+[license-url]: https://github.com/Bam6561/CompareDirectoryFiles/blob/main/LICENSE
