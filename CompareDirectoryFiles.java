@@ -5,7 +5,7 @@ import java.util.*;
  * Lists different relative file paths between two directories and their subdirectories.
  *
  * @author Danny Nguyen
- * @version 2.0
+ * @version 2.1
  * @since 1.0
  */
 public class CompareDirectoryFiles {
@@ -38,10 +38,14 @@ public class CompareDirectoryFiles {
     Set<String> paths1 = new HashSet<>();
     Set<String> paths2 = new HashSet<>();
 
+    long start = System.currentTimeMillis();
     addPaths(paths1, paths2);
     comparePaths(paths1, paths2);
     printPaths(directory1, paths1);
     printPaths(directory2, paths2);
+
+    long end = System.currentTimeMillis();
+    System.out.println("Compared directory files in " + millisecondsToMinutesSeconds(end - start) + ".");
   }
 
   /**
@@ -111,5 +115,17 @@ public class CompareDirectoryFiles {
         parseDirectory(source, file, paths);
       }
     }
+  }
+
+  /**
+   * Converts milliseconds to minutes and seconds.
+   *
+   * @param duration elapsed time in milliseconds
+   * @return minutes and seconds
+   */
+  private static String millisecondsToMinutesSeconds(long duration) {
+    long minutes = duration / 60000L % 60;
+    long seconds = duration / 1000L % 60;
+    return ((minutes == 0 ? "" : minutes + "m ") + (seconds == 0 ? "0s" : seconds + "s ")).trim();
   }
 }
