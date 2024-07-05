@@ -21,7 +21,7 @@ public class CompareDirectoryFiles {
 
   /**
    * Checks if the {@link #directory1} and {@link #directory2}
-   * are valid before traversing the file system.
+   * inputs are valid before traversing the file system.
    *
    * @param args user provided parameters.
    */
