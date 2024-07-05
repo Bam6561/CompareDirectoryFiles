@@ -2,8 +2,7 @@ import java.io.File;
 import java.util.*;
 
 /**
- * Compares two directories and their subdirectories' 
- * relative file paths and lists differences between both.
+ * Lists differences between two directories' and their subdirectories' relative file paths.
  *
  * @author Danny Nguyen
  * @version 2.0
