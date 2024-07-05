@@ -25,7 +25,7 @@
 
 ## About The Project
 
-Compares two directories' and their subdirectories' relative file paths and lists differences between both.
+Lists differences between two directories' and their subdirectories' relative file paths.
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
